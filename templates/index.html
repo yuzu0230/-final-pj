@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Member Library</h1>
+{% if members == []: %}
+<p>Library is empty.</p>
+{% endif %}
+<ul>
+    {% for member in members %}
+    <li>
+        {{member.id}} - {{member.member_name}} - {{member.sex}} - {{member.age}} - {{member.residence}} -
+        {{member.monetary}}
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
