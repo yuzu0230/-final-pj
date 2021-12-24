@@ -12,7 +12,6 @@
 <ul>
     {% for member in members %}
     <li>
-        <a href="{{ url_for('delete_member', id=member.id) }}">Delete</a>
         {{member.id}} - {{member.member_name}} - {{member.sex}} - {{member.age}} - {{member.residence}} -
         {{member.monetary}}
     </li>

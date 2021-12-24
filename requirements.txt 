@@ -1,0 +1,7 @@
+gunicorn
+os
+datetime
+flask
+flask_cors
+flask_marshmallow
+flask_sqlalchemy
