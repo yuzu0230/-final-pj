@@ -1,5 +1,5 @@
 產銷資訊系統期末project  
-doc(2021/12/29更):https://reurl.cc/emjr8K  
+doc(2022/01/01更):https://reurl.cc/Rj4nQz  
   
 2021/12/24  
 目前完成功能:  
